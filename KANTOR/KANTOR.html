@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartosz Bodziony</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" <link href="css/style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="body">
+
+
+    <form class="js-form">
+
+
+        <P>
+            <label>kwota w zl<input class="js-zl" type="number" required step="0.01"></label>
+        </P>
+
+        <P><label>Waluta<select class="js-currency">
+                    <option value="DOLAR">DOLAR</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </label></P>
+        <P>
+            <button> PRZELICZ</button>
+        </P>
+
+        <P>DOSTANIESZ: <strong class="js-result"></strong></P>
+
+    </form>
