@@ -28,6 +28,6 @@ formElement.addEventListener("submit", (event) => {
     }
 
 
-    resultElement.innerHTML = `${result}`;
+    resultElement.innerHTML = `${result.toFixed(2)}`;
 
 });
