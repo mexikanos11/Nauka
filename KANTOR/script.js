@@ -31,3 +31,12 @@ formElement.addEventListener("submit", (event) => {
     resultElement.innerHTML = `${result.toFixed(2)}`;
 
 });
+
+
+let mojaliczba = 2;
+
+let nazwa =liczba => liczba * 8; 
+
+
+
+console.log(nazwa(mojaliczba));
